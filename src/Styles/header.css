@@ -1,0 +1,37 @@
+.header-container {
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cart-button {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 15%;
+	height: 3rem;
+	border-radius: 20px;
+	padding: 0 1rem;
+	font-weight: bold;
+	margin-right: 1rem;
+}
+
+.icon {
+	width: 1.35rem;
+	height: 1.35rem;
+	align-self: center;
+}
+
+.order-title {
+	color: grey;
+	white-space: nowrap;
+	margin-right: 10px;
+}
+
+h3 {
+	color: grey;
+	padding-left: 5px;
+}
